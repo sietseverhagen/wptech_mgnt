@@ -1,1 +1,16 @@
 This is the README of sietseverhagen
+sietse.verhagen@58TGTY1 ~/wptech_mgnt $ vi README <=== Eerste FILE aangemaakt
+sietse.verhagen@58TGTY1 ~/wptech_mgnt $ git add README <=== Hiermee voeg ik README toe aan de GIT LIST (indien je alle files in de dir waar je staat wil toevoegen kan dat door middel van git add .)
+sietse.verhagen@58TGTY1 ~/wptech_mgnt $ git commit -m 'First Commit' <=== ik plaats een opmerking bij mn commit
+[master (root-commit) 765d0ab] First Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+sietse.verhagen@58TGTY1 ~/wptech_mgnt $ git push origin master <=== hiermee PUSH je huidige lijst naar de master
+Username for 'https://github.com': sietseverhagen <=== USERNAME
+Password for 'https://sietseverhagen@github.com': <=== PASSWORD
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 249 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/sietseverhagen/wptech_mgnt.git
+ * [new branch]      master -> master
+
